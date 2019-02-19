@@ -1,6 +1,4 @@
 #!/bin/bash
 
-python3 -m venv .
-source ./bin/activate
-
-deactivate
+conda install basemap
+conda install basemap-data-hires
