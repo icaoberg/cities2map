@@ -1,0 +1,8 @@
+"Erin", "Staff", "Pittsburgh Pennsylvania USA"
+"Samantha", "Staff", "Youngstown Ohio USA"
+"Ivan", "Staff", "Buenos Aires Argentina"
+"Ally", "Staff", "New Jersey USA"
+"Elisa", "Staff", "Pittburgh Pennsylvania USA"
+"Nicole", "Staff", "Pittburgh Pennsylvania USA"
+"Melissa", "Staff", "Pittburgh Pennsylvania USA"
+"Alison", "Staff", "Pittburgh Pennsylvania USA"
