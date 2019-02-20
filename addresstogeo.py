@@ -8,11 +8,13 @@ cities = {}
 counts = {}
 geolocator = Nominatim(user_agent='myapplication')
 
-for bp in df['Birthplace']:
+for bp in df['City']:
+	print(bp)
 	if str(bp) in cities:
+		print('City was found. Increasing counter.')
 		counts[bp]=counts[bp]+1
 	else:
 		location=geolocator.geocode(bp)
-		if location:
-			cities[bp]=[location.longitude,location.latitude]
-			counts[bp] = 1
+		print('Adding new city. Setting counter to 1.')
+		cities[bp]=[location.longitude,location.latitude]
+		counts[bp] = 1

@@ -15,7 +15,7 @@ m = Basemap(resolution='i', # c, l, i, h, f or None
 	lat_1=45.,lat_2=55,lat_0=50,lon_0=-107,
         llcrnrlon=-180, llcrnrlat=-70, urcrnrlon=180, urcrnrlat=80)
 
-m.drawmapboundary(fill_color='#46bcec')
+m.drawmapboundary(fill_color='#45bcec')
 m.fillcontinents(color='#f2f2f2',lake_color='#46bcec')
 #m.drawcountries()
 #m.drawstates()
@@ -24,13 +24,15 @@ m.fillcontinents(color='#f2f2f2',lake_color='#46bcec')
 exec(open("addresstogeo.py").read())
 
 print('Preparing plot')
-scale = 5
+scale = 0.5
 plt.title("Computational Biology Department Staff")
 for bp in cities:
 	print(bp)
-	print('Adding to (lat,lon):(' + str(cities[bp][0]) + ',' + str(cities[bp][1]) + ') with marker size ' + str(counts[bp])); 
+	print('Adding to (lat,lon):(' + str(cities[bp][0]) + ',' + str(cities[bp][1]) + ') with marker size ' + str(scale*counts[bp])); 
 	x, y = m(cities[bp][0], cities[bp][1])
-	plt.plot(x, y, markersize=scale*int(math.sqrt(counts[bp])), color='red', marker='o')
+	plt.plot(x, y, markersize=scale*counts[bp], color='red', marker='o')
 	#plt.text(x,y, bp, fontsize=8);
 
 plt.savefig('worldmap.png', bbox_inches='tight')
+plt.savefig('worldmap.svg', bbox_inches='tight', format='svg', dpi=1200)
+plt.savefig('worldmap.eps', bbox_inches='tight', format='eps', dpi=1200)

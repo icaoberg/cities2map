@@ -3,7 +3,7 @@ Erin,Staff,Pittsburgh,Pennsylvania,United States
 Samantha,Staff,Youngstown,Ohio,United States
 Ivan,Staff,Buenos Aires,Buenos Aires,Argentina
 Ally,Staff,New Brunswick,New Jersey,United States
-Elisa,Staff,Pittburgh,Pennsylvania,United States
-Nicole,Staff,Pittburgh,Pennsylvania,United States
-Melissa,Staff,Pittburgh,Pennsylvania,United States
-Alison,Staff,Pittburgh,Pennsylvania,United States
+Elisa,Staff,Pittsburgh,Pennsylvania,United States
+Nicole,Staff,Pittsburgh,Pennsylvania,United States
+Melissa,Staff,Pittsburgh,Pennsylvania,United States
+Alison,Staff,Pittsburgh,Pennsylvania,United States
