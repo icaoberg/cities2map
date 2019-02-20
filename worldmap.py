@@ -33,6 +33,4 @@ for bp in cities:
 	plt.plot(x, y, markersize=scale*counts[bp], color='red', marker='o')
 	#plt.text(x,y, bp, fontsize=8);
 
-plt.savefig('worldmap.png', bbox_inches='tight')
-plt.savefig('worldmap.svg', bbox_inches='tight', format='svg', dpi=1200)
 plt.savefig('worldmap.eps', bbox_inches='tight', format='eps', dpi=1200)
