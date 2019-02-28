@@ -23,3 +23,5 @@ where
 * `-c`/`--color`
 * `-f`/`--file`
 * `-o`/`--output`
+
+[![asciicast](https://asciinema.org/a/jG5ClXpBLLGKqSOqTkUeD3DUi.svg)](https://asciinema.org/a/jG5ClXpBLLGKqSOqTkUeD3DUi)
