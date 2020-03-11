@@ -12,11 +12,15 @@ Ivan,Staff,Buenos Aires,Buenos Aires,Argentina
 ```
 
 ## Example
+To create the map
+
+![Map](./map.png)
+
 ```
 python3 cities2map.py -f staff.txt -o map.eps -t "CBD World Map" -m 'v' -c 'red'
 ```
 
-where 
+where
 
 * `-m`/`--marker`
 * `-t`/`--title`
