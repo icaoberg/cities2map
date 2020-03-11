@@ -16,6 +16,8 @@ To create the map
 
 ![Map](./map.png)
 
+simply run 
+
 ```
 python3 cities2map.py -f staff.txt -o map.eps -t "CBD World Map" -m 'v' -c 'red'
 ```
@@ -28,4 +30,19 @@ where
 * `-f`/`--file`
 * `-o`/`--output`
 
+When you run the command above you should see output similar to the one below
+
 [![asciicast](https://asciinema.org/a/jG5ClXpBLLGKqSOqTkUeD3DUi.svg)](https://asciinema.org/a/jG5ClXpBLLGKqSOqTkUeD3DUi)
+
+## Disclaimer
+
+This code has
+
+* been tested on Python3 using conda
+* Tested on Ubuntu 18.04
+* I was not able to run this script on MacOSX Catalina
+
+---
+[![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
+
+Copyleft © 2020 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
