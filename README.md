@@ -1,5 +1,5 @@
 # cities2map
-A function that converts an input file with data into a map.
+A Python script that converts an input file with data into a map.
 
 ## Input file
 The input file should look like something like this. See file `staff.txt` for a full example.
